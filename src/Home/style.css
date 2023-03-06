@@ -1,0 +1,145 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #292d33;
+}
+.header {
+  width: 805px;
+  font-weight: 700;
+  font-size: 4.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #e37218;
+  margin: auto;
+}
+
+.head {
+  background-color: #292d33;
+  height: 800px;
+  margin: auto;
+  text-align: center;
+}
+.name {
+  color: #d4b0b0;
+  font-family: Consolas, "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profile {
+  display: block;
+  margin: auto;
+  width: 319px;
+  height: 319px;
+  border: 6px solid #998686;
+  border-radius: 50%;
+  stroke: none;
+}
+.isi {
+  display: block;
+  margin: auto;
+  width: 400px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.body {
+  background-color: #504f4f;
+  height: 500px;
+  margin: auto;
+}
+#content1 {
+  display: flex;
+}
+.header_content {
+  margin: auto;
+  width: 805px;
+  font-weight: 700;
+  font-size: 4.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+}
+.logo {
+  display: grid;
+  width: 30%;
+  height: 30%;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.text {
+  display: grid;
+  width: 400px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin-top: -100px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.logo2 {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 120px;
+  margin-left: 30%;
+}
+.ci {
+  margin-left: 23%;
+}
+.foot {
+  justify-content: center;
+  background-color: #292d33;
+  height: 500px;
+  margin: auto;
+}
+.linkedin {
+  display: flex;
+  width: 100px;
+  height: auto;
+  margin-left: 430px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.linkedin:hover {
+  background-color: white;
+  border-radius: 20%;
+}
+.github {
+  display: flex;
+  width: 100px;
+  height: auto;
+  margin-top: -110px;
+  margin-bottom: 0px;
+  margin-left: 60%;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 400px;
+  height: 350px;
+}
+
+span {
+  padding: 20px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 70px;
+  width: 450px;
+  height: 170px;
+  font-size: 20px;
+  /*background: #efefef;*/
+  text-align: center;
+}
